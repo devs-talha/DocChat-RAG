@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 88
+exclude = .git,__pycache__,migrations,venv,.k8s,.vscode,.github,.pytest_cache,app/db/migrations/versions/*
+ignore = E203, W503
